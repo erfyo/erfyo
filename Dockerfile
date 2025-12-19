@@ -15,4 +15,5 @@ COPY . .
 EXPOSE 8501
 
 # Komenda startowa
-CMD ["streamlit", "run", "erfyo_test.py", "--server.port=8501", "--server.address=57.128.247.55"]
+
+CMD ["streamlit", "run", "erfyo_test.py", "--server.port=8501", "--server.address=0.0.0.0"]
